@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(218, 178, 152);
+    padding: 0;
+    margin: 0;
+}
+div.header {
+    text-align: center;
+    font-family: sans-serif;
+}
+div.header h1{
+    margin: 1.5em 0 0.7em 0; 
+    font-weight: 400;
+    font-size: 2.3em;
+}
+div.main{
+    padding-top: 2.5em;
+}
+div.header span.black-background {
+    background: #000;
+    color: #fff;
+    padding: 0 px;
+}
+div.main div.left {
+  width: 67%;
+   
+    float: left;
+}
+div.main div.right {
+        width: 32%;
+      float: right;
+      margin-right: 1%;
+}
+
+div.contents,div.profile,div.posts,div.tags {
+    WIDTH: 96%;
+    MARGIN: 0 AUTO;
+    FONT-FAMILY: SANS-SERIF;
+    BACKGROUND: WHITE;
+    FONT-WEIGHT: 100;
+    PADDING: 0;
+    color: #635c5c;
+    box-shadow: 5px 5px 10px #7d7d71, -5px 5px 10px #7d7d71;
+    margin-bottom: 2.5em;
+}
+div.contents div.main-contents{
+    padding: 1.5%;
+}
+
+div.contents div.main-contents h2 {
+    font-weight: 400;
+    margin: 0 0 0.5em 0;
+    color: #635c5c;
+}
+
+div.contents div.main-contents div.subhead{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+div.contents div.main-contents div.subhead span.date{
+   color:#cab5b5;
+}
+
+div.contents div.main-contents div.description{
+    font-size: 0.95em;
+}
+
+div.contents img{
+    width: 100%;
+}
+
+div.endmain{
+    padding-top: 4em;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ a.readmore,
+ a.readmore:visited{
+    color: #5b5151;
+    text-decoration: none;
+    border: 1px solid #c7b8b8;
+    padding: 0.8em 1em;
+    display: inline-block;
+    font-weight: 300;
+ }
+
+ a.readmore:hover{
+    background: #5b5151;
+    color: #fff;
+ }
+
+div.comments{
+    color: #2b2525;
+    float: right;
+    line-height: 3em;
+    font-weight: 700;
+}
+div.comments span{
+    background: #000;
+    color: #fff;
+    margin-left: 0.3em;
+    padding: 0.2em 0.5em 0.1em;
+}
+div.comments span.comment-radius{
+    border-radius: 15px;
+}
+
+div.snake{
+    padding: 1.5%;
+}
+
+
+div.right div.profile,div.post,div.tags {
+        
+    box-shadow: 3px 3px 5px #7d7d71, -3px 3px 5px #7d7d71;
+
+}
+
+div.right div.profile img {
+    height: 286px;
+}
+
+div.profile div{
+    padding: 1em;
+}
+
+div.profile img{
+    width: 100%;
+}
+
+div.tags h3,
+div.post h3{
+    background: #6f3302af;
+    font-weight: 100;
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+div.post ul{
+    margin: 0;
+    padding: 0;
+}
+
+div.post ul li img {
+    width: 34px;
+    float: left;
+    margin-right: 1em;
+}
+
+div.post ul li{
+    clear: both;
+    list-style-type: none;
+    padding: 1em 1em 1.5em 1em ;
+    border-top: 1px solid #ccc;
+}
+
+div.post ul li:hover{
+    background: #ccc;
+}
+
+div.post ul li span.title{
+    font-size: 1.2em;
+}
+
+div.tags ul{
+    padding-left: 1em;
+}
+
+
+div.tags ul li{
+    display: inline-block;
+    list-style-type: none;
+    background: #eee;
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+    margin: 0 0 1em 0;
+}
+
+div.tags ul li.active{
+background: #eee;
+    color: #fff;
+}
+
+div.tags ul li:hover{
+    background: #ee9898;
+}
+
+div.footer {
+    clear: both;
+    background: #cc8874;
+    padding: 1em 1em 2em 1em;
+}
+
+div.footer ul li {
+    display: inline-block;
+    background: hsl(15, 64%, 38%);
+    color: #fff;
+    padding: 0.8em 1.5em;
+}
+
+
+
+
+div.footer ul li.deactive {
+    display: inline-block;
+    background: hsl(25, 48%, 16%);
+    color: #fff;
+    padding: 0.8em 1.5em;
+}
+
+.tags ul li a{
+    text-decoration: none;
+    color: black;
+}
+.tags ul li{
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.tags ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.tags ul li:hover{
+    background-color: black;
+}
+
+.tags ul li:hover a{
+    color: white;
+}
+h3.shobe{
+    color: #eee;
+}

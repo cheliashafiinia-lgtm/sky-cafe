@@ -1,0 +1,55 @@
+.wrapper {
+    background-color: burlywood;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+h3{
+    color: #fff;
+    
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card, .pumkin, .oreo, .lotus, .choclate, .blueberry, .strawberry, .cherry, .lemon {
+    background-color: #745547;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.card img, .pumkin img, .oreo img, .lotus img, .choclate img, .cherry img, .lemon img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.card p, .pumkin p, .oreo p, .lotus p, .choclate p, .blueberry p, .cherry p, .strawberry p, .lemon p  {
+    direction: rtl;
+    line-height: 2;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.blueberry img{
+        width: 291px;
+    border-radius: 20px;
+    display: block;
+}
+
+
+.strawberry img{
+            width: 291px;
+    border-radius: 20px;
+    display: block;
+}

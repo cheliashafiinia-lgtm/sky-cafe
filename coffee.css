@@ -1,0 +1,47 @@
+.wrapper{
+    background-color: rgb(147, 108, 65);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h3{
+        color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.iced-latte, .cappuccino, .americano, .Iced-Caramel-Macchiato, .espreso, .matcha, .strawberry-matcha{
+        background-color: #493025;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.iced-latte img, .cappuccino img, .americano img, .americano img, .Iced-Caramel-Macchiato img, .espreso img, .matcha img, .strawberry-matcha img{
+     width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.iced-latte p, .cappuccino p, .americano p, .Iced-Caramel-Macchiato p, .espreso p, .matcha p, .strawberry-matcha p{
+    direction: rtl;
+    line-height: 2;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+}
+
+img.imgamericano{
+        margin: 0px -2px;
+
+}
